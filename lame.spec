@@ -1,6 +1,6 @@
 Name:           lame
 Version:        3.99.5
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Free MP3 audio compressor
 
 Group:          Applications/Multimedia
@@ -118,6 +118,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/mp3x
 
 %changelog
+* Sun Apr 10 2016 Egor Zaharov <nexfwall@gmail.com> - 3.99.5-6
+- Rebuild for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
+
 * Sun Dec 07 2014 Nicolas Chauvet <kwizart@gmail.com> - 3.99.5-5
 - Fix FTBFS on i686
 
